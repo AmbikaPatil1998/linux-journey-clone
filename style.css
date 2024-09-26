@@ -188,10 +188,29 @@ button{
 .footer{
     background-color: #1f2937;
     color: white;
-     text-align:center; 
-      padding: 20px; 
-   
-      
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+    Padding: 20px;
+    text-align: center;
+    
+    
+}
+
+.footer-left{
+    width: 150px;
+
+}
+
+.footer-center{
+    width: 150px;
+
+}
+
+.footer-right{
+    width:150px;
+
 }
 
 
